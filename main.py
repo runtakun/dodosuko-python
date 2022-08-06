@@ -13,7 +13,7 @@ def main():
         print(words[d])
         histories.append(d)
 
-        if histories[-12:] == [0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, ]:
+        if histories[-12:] == [0, 1, 1, 1,] * 3:
             print("ラブ注入❤️")
             break
 
